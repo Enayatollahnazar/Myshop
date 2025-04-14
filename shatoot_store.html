@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>فروشگاه لباس شاتوت</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Tahoma', sans-serif;
+      background-color: #fff5e6;
+      color: #333;
+    }
+    header {
+      background-color: #ff6600;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #ff8533;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      background-image: url('https://example.com/hero-image.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 2em;
+      text-shadow: 2px 2px 4px #000;
+    }
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+    .product {
+      background-color: white;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      margin: 10px;
+      width: 200px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .product img {
+      width: 100%;
+      border-bottom: 1px solid #ddd;
+    }
+    .product h3 {
+      margin: 10px 0;
+    }
+    .product p {
+      color: #ff6600;
+      font-weight: bold;
+    }
+    footer {
+      background-color: #ff6600;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 20px;
+    }
+    @media (max-width: 600px) {
+      .products {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>فروشگاه لباس شاتوت</h1>
+    <p>جدیدترین مدها با بهترین قیمت‌ها</p>
+  </header>
+  <nav>
+    <a href="#products">محصولات</a>
+    <a href="#about">درباره ما</a>
+    <a href="#contact">تماس با ما</a>
+  </nav>
+  <div class="hero">
+    <div>به فروشگاه ما خوش آمدید!</div>
+  </div>
+  <section id="products" class="products">
+    <div class="product">
+      <img src="https://example.com/product1.jpg" alt="محصول 1">
+      <h3>تی‌شرت مردانه</h3>
+      <p>150,000 تومان</p>
+    </div>
+    <div class="product">
+      <img src="https://example.com/product2.jpg" alt="محصول 2">
+      <h3>پیراهن زنانه</h3>
+      <p>200,000 تومان</p>
+    </div>
+  </section>
+  <section id="about" style="padding: 20px;">
+    <h2>درباره ما</h2>
+    <p>فروشگاه شاتوت با هدف ارائه لباس‌های باکیفیت و مد روز برای تمامی سنین و سلیقه‌ها تأسیس شده است. ما به دنبال رضایت مشتریان و ارائه بهترین خدمات هستیم.</p>
+  </section>
+  <section id="contact" style="padding: 20px;">
+    <h2>تماس با ما</h2>
+    <p>برای ارتباط با ما می‌توانید از طریق ایمیل info@shatoot.com یا شماره تلفن ۰۹۱۲۳۴۵۶۷۸۹ اقدام کنید.</p>
+  </section>
+  <footer>
+    &copy; 2025 فروشگاه شاتوت. تمامی حقوق محفوظ است.
+  </footer>
+</body>
+</html>
